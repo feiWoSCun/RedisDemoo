@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="120005fd-2e31-4b7d-a059-b4a51822ea95" name="变更" comment="" />
+    <list default="true" id="120005fd-2e31-4b7d-a059-b4a51822ea95" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/userservice/domain/mapper/DescriptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/userservice/domain/mapper/DescriptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/userservice/domain/model/entity/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/userservice/domain/model/entity/Description.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/userservice/domain/service/DescripService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/userservice/domain/service/DescripService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/userservice/domain/service/impl/DescripServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/userservice/domain/service/impl/DescripServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/mapper/descripmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/mapper/descripmapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/userservice/domain/mapper/DescriptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/userservice/domain/mapper/DescriptionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/userservice/domain/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/userservice/domain/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/userservice/domain/model/entity/Description.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/userservice/domain/model/entity/Description.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/userservice/domain/service/DescripService.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/userservice/domain/service/DescripService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/userservice/domain/service/impl/DescripServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/userservice/domain/service/impl/DescripServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/mapper/descripmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/mapper/descripmapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/controller/descriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/controller/descriptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/userservice/UserServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/userservice/UserServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/userservice/controller/descriptionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/userservice/controller/descriptionController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +34,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,6 +56,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2FIugi30ljc8kTG7rGroxnmIUkp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,10 +72,16 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "D:/Redis/user-service/src/main/resources",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.125",
     "project.structure.side.proportion": "0.42011175",
     "settings.editor.selected.configurable": "reactor"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -102,12 +132,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664192033304</updated>
-      <workItem from="1664192035385" duration="19317000" />
+      <workItem from="1664192035385" duration="30409000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="stringRedisTemplate.opsForZSet().score(desKey, des)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

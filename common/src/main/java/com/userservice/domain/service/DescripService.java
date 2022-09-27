@@ -1,12 +1,11 @@
 package com.userservice.domain.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.userservice.domain.model.entity.Description;
 
-import java.util.List;
+import java.util.Set;
 
 public interface DescripService extends IService {
     public String addLike(Integer desId, Integer userId);
     //排行榜
-    public List<Description> range();
+    public Set<String> range();
 }

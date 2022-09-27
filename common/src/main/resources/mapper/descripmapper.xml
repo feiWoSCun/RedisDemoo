@@ -4,12 +4,15 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.userservice.domain.mapper.DescriptionMapper">
     <update id="addLike">
-        update description set likes=likes+#{id} where id=#{desId};
+        update description set likes=likes+1 where id=#{desId};
     </update>
     <select id="getLikesById" >
         select likes from description where id=#{id};
     </select>
-    <select id="getDesById" resultType="Description">
-        select * from description where id=#{id}
+    <select id="getDesById" resultType="Des">
+        select description,id from description where id=#{id}
     </select>
+    <update id="deleteLike">
+        update description set likes=likes-1 where id=#{desId};
+    </update>
 </mapper>

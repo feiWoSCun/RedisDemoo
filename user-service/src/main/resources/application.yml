@@ -1,13 +1,18 @@
 spring:
+  redis:
+    database: 0
+    host: 192.168.79.133
+    port: 6379
+    connect-timeout: 10s
   datasource:
     username: root
     password: 2825097536
-    url: jdbc:mysql://localhost:3306final_ssm?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/final_ssm?useUnicode=true&characterEncoding=utf-8&useSSL=false
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis-plus:
   # 搜索指定包别名
   typeAliasesPackage: com.userservice.domain.model.entity
   # 配置mapper的扫描，找到所有的mapper.xml映射文件
-  mapperLocations: classpath*:mapper/**/*Mapper.xml
+  apperLocations: classpath*:mapper/**/*Mapper.xml
   # 加载全局的配置文件
   configLocation: classpath:mybatis/mybatis-config.xml
