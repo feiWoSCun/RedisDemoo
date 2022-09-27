@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.userservice.domain.mapper.DescriptionMapper">
+    <update id="addLike">
+        update description set likes=likes+#{id} where id=#{desId};
+    </update>
+    <select id="getLikesById" >
+        select likes from description where id=#{id};
+    </select>
+    <select id="getDesById" resultType="Description">
+        select * from description where id=#{id}
+    </select>
+</mapper>
